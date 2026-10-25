@@ -1,639 +1,1377 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="HzOJiUXQf3IRBr-45xzQWlgGUCx27A8LYO8NxobM600" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-  <title>Chhirush Web Developer | Professional Websites</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-  <meta name="description"
-    content="Chhirush Web Developer creates modern, responsive websites for shops, salons, startups and businesses in Pune and beyond.">
+    <meta
+        name="theme-color"
+        content="#030919"
+    >
 
-  <link rel="stylesheet" href="style.css">
-  
+    <meta
+        name="description"
+        content="Chhirush Web Developer creates modern, fast, responsive and premium websites for businesses. Contact developer Mohit Kumar to build your website."
+    >
+
+    <meta
+        name="keywords"
+        content="Chhirush Web Developer, Mohit Kumar, Web Developer, Website Designer, Business Website, Website Development India"
+    >
+
+    <meta name="author" content="Chhirush Web Developer">
+
+    <meta
+        name="google-site-verification"
+        content="HzOJiUXQf3IRBr-45xzQWlgGUCx27A8LYO8NxobM600"
+    >
+
+    <title>
+        Chhirush Web Developer | Premium Website Development
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="background.css">
+
+    <script src="script.js" defer></script>
+
 </head>
+
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="navbar">
-    <div class="nav-container">
+    <!-- =====================================
+         FIXED WEBSITE BACKGROUND
+    ====================================== -->
 
-      <a href="#home" class="logo">
-        <span class="logo-icon">C<span>.</span></span>
-        <span class="logo-text">
-          CHHIRUSH
-          <small>WEB DEVELOPER</small>
+    <div
+        class="website-background"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="background-overlay"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =====================================
+         CINEMATIC LOADING INTRO
+    ====================================== -->
+
+    <div
+        id="pageLoader"
+        class="page-loader"
+        aria-label="Loading website"
+    >
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                C<span>.</span>
+            </div>
+
+            <h2 class="loader-title">
+                CHHIRUSH
+            </h2>
+
+            <p class="loader-subtitle">
+                WEB DEVELOPER
+            </p>
+
+            <div class="loader-progress">
+                <span class="loader-progress-bar"></span>
+            </div>
+
+            <p class="loader-caption">
+                CREATING DIGITAL EXPERIENCES
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         GOLDEN CUSTOM CURSOR
+    ====================================== -->
+
+    <div
+        class="custom-cursor"
+        id="customCursor"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="cursor-glow"
+        id="cursorGlow"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =====================================
+         FLOATING PARTICLE LAYER
+    ====================================== -->
+
+    <canvas
+        id="particleCanvas"
+        class="particle-canvas"
+        aria-hidden="true"
+    ></canvas>
+
+
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Chhirush Web Developer Home"
+            >
+
+                <div class="logo-icon">
+                    C<span>.</span>
+                </div>
+
+                <div class="logo-text">
+
+                    CHHIRUSH
+
+                    <small>
+                        WEB DEVELOPER
+                    </small>
+
+                </div>
+
+            </a>
+
+
+            <nav
+                class="nav-links"
+                id="navigationMenu"
+                aria-label="Main navigation"
+            >
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#services">Services</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#pricing">Pricing</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <a
+                href="#contact"
+                class="nav-contact magnetic-button"
+            >
+                Let's Talk ↗
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="navigationMenu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================
+         HERO SECTION
+    ====================================== -->
+
+    <section
+        class="hero"
+        id="home"
+    >
+
+        <div
+            class="hero-glow"
+            aria-hidden="true"
+        ></div>
+
+        <div class="container hero-grid">
+
+
+            <!-- HERO LEFT -->
+
+            <div class="hero-text">
+
+                <div
+                    class="hero-badge hero-animate"
+                >
+
+                    <span class="status-dot"></span>
+
+                    AVAILABLE FOR NEW PROJECTS
+
+                </div>
+
+
+                <h1 class="hero-animate">
+
+                    Building
+
+                    <span>
+                        Powerful
+                    </span>
+
+                    Digital Experiences.
+
+                </h1>
+
+
+                <p
+                    class="hero-description hero-animate"
+                >
+
+                    I design and develop modern,
+                    responsive and professional
+                    websites that help businesses
+                    build a strong online presence,
+                    attract customers and grow.
+
+                </p>
+
+
+                <div
+                    class="hero-buttons hero-animate"
+                >
+
+                    <a
+                        href="#contact"
+                        class="btn btn-gold magnetic-button"
+                    >
+                        Start Your Project ↗
+                    </a>
+
+                    <a
+                        href="#projects"
+                        class="btn btn-outline magnetic-button"
+                    >
+                        Explore My Work
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="hero-highlights hero-animate"
+                >
+
+                    <div>
+
+                        <strong>
+                            Modern
+                        </strong>
+
+                        <span>
+                            Web Design
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Responsive
+                        </strong>
+
+                        <span>
+                            All Devices
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Fast
+                        </strong>
+
+                        <span>
+                            Performance
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO RIGHT -->
+
+            <div
+                class="hero-visual hero-animate"
+            >
+
+                <div
+                    class="code-window tilt-card"
+                >
+
+                    <div class="window-header">
+
+                        <div class="dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <span>
+                            chhirush.js
+                        </span>
+
+                    </div>
+
+
+                    <div class="code-content">
+
+                        <p>
+                            <span class="code-purple">const</span>
+                            developer = {
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;name:
+                            <span class="code-gold">
+                                "Mohit Kumar"
+                            </span>,
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;brand:
+                            <span class="code-gold">
+                                "Chhirush"
+                            </span>,
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;skills: [
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="code-blue">
+                                "HTML"
+                            </span>,
+                            <span class="code-blue">
+                                "CSS"
+                            </span>,
+                            <span class="code-blue">
+                                "JavaScript"
+                            </span>
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;],
+                        </p>
+
+                        <p>
+                            &nbsp;&nbsp;mission:
+                            <span class="code-gold">
+                                "Build Better Websites"
+                            </span>
+                        </p>
+
+                        <p>
+                            };
+                        </p>
+
+                        <p>
+                            <span class="code-purple">
+                                developer
+                            </span>.createMagic();
+                        </p>
+
+                    </div>
+
+
+                    <div class="window-footer">
+                        ● BUILDING THE FUTURE
+                    </div>
+
+                </div>
+
+
+                <div class="floating-label top-label">
+                    ✦ PREMIUM DESIGN
+                </div>
+
+                <div class="floating-label bottom-label">
+                    ⚡ FAST & RESPONSIVE
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         ABOUT SECTION
+    ====================================== -->
+
+    <section
+        class="section about-section"
+        id="about"
+    >
+
+        <div class="container">
+
+            <p class="section-tag reveal">
+                01 / ABOUT ME
+            </p>
+
+
+            <h2 class="section-title reveal">
+
+                Turning Ideas Into
+
+                <span>
+                    Digital Reality.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description reveal">
+
+                I'm Mohit Kumar, the developer behind
+                Chhirush Web Developer. I create
+                clean, attractive and user-friendly
+                websites for individuals, shops,
+                startups and growing businesses.
+
+                My focus is on professional design,
+                smooth user experiences and websites
+                that work beautifully across devices.
+
+            </p>
+
+
+            <div class="about-features">
+
+                <div class="reveal">
+                    ✦ Modern UI Design
+                </div>
+
+                <div class="reveal">
+                    ⚡ Fast Performance
+                </div>
+
+                <div class="reveal">
+                    📱 Mobile Responsive
+                </div>
+
+                <div class="reveal">
+                    ✨ Premium Experience
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         SERVICES SECTION
+    ====================================== -->
+
+    <section
+        class="section services-section"
+        id="services"
+    >
+
+        <div class="container">
+
+            <p class="section-tag reveal">
+                02 / MY SERVICES
+            </p>
+
+
+            <h2 class="section-title reveal">
+
+                Services That Help
+
+                <span>
+                    Businesses Grow.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description reveal">
+
+                From simple business websites to
+                interactive digital experiences,
+                I build websites designed around
+                your goals.
+
+            </p>
+
+
+            <div class="services-grid">
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ◈
+                    </div>
+
+                    <h3>
+                        Business Websites
+                    </h3>
+
+                    <p>
+
+                        Professional websites that
+                        showcase your business,
+                        services and contact details.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ◉
+                    </div>
+
+                    <h3>
+                        Landing Pages
+                    </h3>
+
+                    <p>
+
+                        Beautiful landing pages
+                        designed to introduce
+                        products, services and
+                        special offers.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ✧
+                    </div>
+
+                    <h3>
+                        Portfolio Websites
+                    </h3>
+
+                    <p>
+
+                        Modern personal websites
+                        for students, creators,
+                        freelancers and professionals.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ⌘
+                    </div>
+
+                    <h3>
+                        Responsive Design
+                    </h3>
+
+                    <p>
+
+                        Websites that look great
+                        on phones, tablets,
+                        laptops and desktop screens.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Website Optimization
+                    </h3>
+
+                    <p>
+
+                        Improvements to website
+                        speed, layout, usability
+                        and overall user experience.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+
+                <article
+                    class="service-card tilt-card reveal"
+                >
+
+                    <div class="service-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Website Redesign
+                    </h3>
+
+                    <p>
+
+                        Refresh your existing
+                        website with a modern
+                        look and smoother navigation.
+
+                    </p>
+
+                    <span>
+                        EXPLORE ↗
+                    </span>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PROJECTS SECTION
+    ====================================== -->
+
+    <section
+        class="section projects-section"
+        id="projects"
+    >
+
+        <div class="container">
+
+            <p class="section-tag reveal">
+                03 / FEATURED WORK
+            </p>
+
+
+            <h2 class="section-title reveal">
+
+                Projects Built With
+
+                <span>
+                    Purpose.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description reveal">
+
+                Explore a project designed
+                to make local services easier
+                to discover and access.
+
+            </p>
+
+
+            <div class="project-card reveal">
+
+
+                <div class="project-preview">
+
+                    <div class="preview-browser">
+
+                        <div class="preview-header">
+
+                            <div class="dots">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                            <small>
+                                LIVE PROJECT
+                            </small>
+
+                        </div>
+
+
+                        <div class="preview-content">
+
+                            <span class="preview-tag">
+                                LOCAL SERVICES
+                            </span>
+
+                            <h3>
+                                RIDHAM
+                                <span>EMITRA</span>
+                            </h3>
+
+                            <p>
+
+                                Digital Services.
+                                Simple Booking.
+                                Better Experience.
+
+                            </p>
+
+                            <a
+                                class="preview-button"
+                                href="https://ridham-emitra-vgw8.onrender.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                VIEW WEBSITE ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-details">
+
+                    <p class="project-category">
+                        BUSINESS WEBSITE
+                    </p>
+
+                    <h3>
+                        Ridham eMitra
+                    </h3>
+
+                    <p>
+
+                        A website for a local
+                        digital services shop,
+                        featuring service
+                        information, pricing
+                        and appointment booking.
+
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>
+                            HTML
+                        </span>
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            JavaScript
+                        </span>
+
+                        <span>
+                            Responsive
+                        </span>
+
+                    </div>
+
+
+                    <a
+                        class="project-link"
+                        href="https://ridham-emitra-vgw8.onrender.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Visit Live Project ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PRICING SECTION
+    ====================================== -->
+
+    <section
+        class="section pricing-section"
+        id="pricing"
+    >
+
+        <div class="container">
+
+            <p class="section-tag reveal">
+                04 / PRICING
+            </p>
+
+
+            <h2 class="section-title reveal">
+
+                Professional Websites.
+
+                <span>
+                    Clear Pricing.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description reveal">
+
+                Choose a starting point
+                for your website project.
+                Final pricing depends on
+                your features and requirements.
+
+            </p>
+
+
+            <div class="pricing-grid">
+
+
+                <article
+                    class="pricing-card tilt-card reveal"
+                >
+
+                    <h3>
+                        Starter Website
+                    </h3>
+
+                    <div class="price">
+
+                        ₹2,999
+
+                        <small>
+                            onwards
+                        </small>
+
+                    </div>
+
+                    <p>
+
+                        Perfect for small shops,
+                        personal brands and
+                        simple business websites.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            ✓ Professional Design
+                        </li>
+
+                        <li>
+                            ✓ Mobile Responsive
+                        </li>
+
+                        <li>
+                            ✓ Business Information
+                        </li>
+
+                        <li>
+                            ✓ Contact Section
+                        </li>
+
+                        <li>
+                            ✓ Basic SEO Setup
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="#contact"
+                        class="btn btn-outline magnetic-button"
+                    >
+                        Get Started ↗
+                    </a>
+
+                </article>
+
+
+                <article
+                    class="pricing-card featured-price tilt-card reveal"
+                >
+
+                    <div class="price-badge">
+                        CUSTOM SOLUTION
+                    </div>
+
+                    <h3>
+                        Business Pro
+                    </h3>
+
+                    <div class="price">
+                        Custom
+                    </div>
+
+                    <p>
+
+                        For businesses that
+                        need additional pages,
+                        booking features and
+                        more advanced functionality.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            ✓ Premium Custom Design
+                        </li>
+
+                        <li>
+                            ✓ Multiple Pages
+                        </li>
+
+                        <li>
+                            ✓ Booking or Enquiry Features
+                        </li>
+
+                        <li>
+                            ✓ Responsive Layout
+                        </li>
+
+                        <li>
+                            ✓ Custom Requirements
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="#contact"
+                        class="btn btn-gold magnetic-button"
+                    >
+                        Request a Quote ↗
+                    </a>
+
+                </article>
+
+            </div>
+
+
+            <p class="pricing-note reveal">
+
+                * Pricing may vary depending
+                on project requirements,
+                hosting and additional features.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CONTACT SECTION
+    ====================================== -->
+
+    <section
+        class="section contact-section"
+        id="contact"
+    >
+
+        <div class="container contact-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-info">
+
+                <p class="section-tag reveal">
+                    05 / LET'S CONNECT
+                </p>
+
+
+                <h2 class="section-title reveal">
+
+                    Have a Project?
+
+                    <span>
+                        Let's Build It.
+                    </span>
+
+                </h2>
+
+
+                <p class="section-description reveal">
+
+                    Tell me about your business
+                    and the website you want.
+                    Let's discuss a design
+                    that works for your goals.
+
+                </p>
+
+
+                <div class="contact-detail reveal">
+
+                    <span>
+                        PHONE / WHATSAPP
+                    </span>
+
+                    <a href="tel:+919116102041">
+
+                        <strong>
+                            +91 9116102041
+                        </strong>
+
+                    </a>
+
+                </div>
+
+
+                <div class="contact-detail reveal">
+
+                    <span>
+                        EMAIL
+                    </span>
+
+                    <a
+                        href="mailto:mohitkumar28112008@gmail.com"
+                    >
+
+                        <strong>
+                            mohitkumar28112008@gmail.com
+                        </strong>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <form
+                id="contactForm"
+                class="contact-form reveal"
+            >
+
+                <h3>
+                    Start Your Project
+                </h3>
+
+                <p>
+
+                    Fill in your details.
+                    Your enquiry will open
+                    in WhatsApp.
+
+                </p>
+
+
+                <label for="clientName">
+                    Your Name *
+                </label>
+
+                <input
+                    type="text"
+                    id="clientName"
+                    name="clientName"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    required
+                >
+
+
+                <label for="businessName">
+                    Business Name *
+                </label>
+
+                <input
+                    type="text"
+                    id="businessName"
+                    name="businessName"
+                    placeholder="Enter your business name"
+                    required
+                >
+
+
+                <label for="websiteType">
+                    Website Type
+                </label>
+
+                <select
+                    id="websiteType"
+                    name="websiteType"
+                >
+
+                    <option value="Business Website">
+                        Business Website
+                    </option>
+
+                    <option value="Portfolio Website">
+                        Portfolio Website
+                    </option>
+
+                    <option value="Landing Page">
+                        Landing Page
+                    </option>
+
+                    <option value="Website Redesign">
+                        Website Redesign
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <label for="projectDetails">
+                    Project Requirements *
+                </label>
+
+                <textarea
+                    id="projectDetails"
+                    name="projectDetails"
+                    rows="5"
+                    placeholder="Tell me about your website..."
+                    required
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-gold submit-btn magnetic-button"
+                >
+                    Send Enquiry on WhatsApp ↗
+                </button>
+
+
+                <small>
+
+                    WhatsApp will open with
+                    your enquiry message.
+                    You can review it before sending.
+
+                </small>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         TRANSPARENT DEVELOPER FOOTER
+    ====================================== -->
+
+    <footer class="footer chhirush-footer">
+
+        <div class="container">
+
+            <div class="developer-credit reveal">
+
+
+                <h2 class="developer-credit-title">
+
+                    Website Created by
+
+                    <span>
+                        Chhirush Web Developer
+                    </span>
+
+                </h2>
+
+
+                <h3 class="developer-credit-name">
+
+                    Developer:
+
+                    <span>
+                        Mohit Kumar
+                    </span>
+
+                </h3>
+
+
+                <div class="developer-credit-contact">
+
+
+                    <a
+                        href="tel:+919116102041"
+                        class="developer-credit-link"
+                    >
+
+                        <span class="developer-credit-icon">
+                            ☎
+                        </span>
+
+                        +91 9116102041
+
+                    </a>
+
+
+                    <a
+                        href="mailto:mohitkumar28112008@gmail.com"
+                        class="developer-credit-link"
+                    >
+
+                        <span class="developer-credit-icon">
+                            ✉
+                        </span>
+
+                        mohitkumar28112008@gmail.com
+
+                    </a>
+
+                </div>
+
+
+                <p class="developer-credit-copyright">
+
+                    © <span id="currentYear"></span>
+
+                    Chhirush Web Developer.
+
+                    All Rights Reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================
+         FLOATING WHATSAPP BUTTON
+    ====================================== -->
+
+    <a
+        href="https://wa.me/919116102041?text=Hello%20Chhirush%20Web%20Developer%21%20I%20want%20to%20build%20a%20website."
+        class="floating-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+        title="Chat on WhatsApp"
+    >
+
+        <span class="whatsapp-icon">
+            ☎
         </span>
-      </a>
 
-      <button class="menu-toggle"
-        aria-label="Open navigation menu"
-        aria-expanded="false">
-        ☰
-      </button>
+        <span class="whatsapp-label">
+            Let's Chat
+        </span>
 
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    </a>
 
-      <a href="#contact" class="nav-contact">
-        Let's Talk ↗
-      </a>
 
-    </div>
-  </header>
+    <!-- =====================================
+         BACK TO TOP BUTTON
+    ====================================== -->
 
+    <a
+        href="#home"
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+        ↑
+    </a>
 
-  <!-- HERO SECTION -->
-  <section class="hero" id="home">
-
-    <div class="hero-glow"></div>
-
-    <div class="container hero-grid">
-
-      <div class="hero-text">
-
-        <div class="hero-badge">
-          <span class="status-dot"></span>
-          WEB DEVELOPMENT SERVICES
-        </div>
-
-        <h1>
-          We Build
-          <span>Websites</span>
-          That Grow
-          Your Business.
-        </h1>
-
-        <p class="hero-description">
-          Professional, modern and mobile-friendly
-          websites designed to help your business
-          stand out online.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-gold">
-            Explore Our Work ↗
-          </a>
-
-          <a href="#contact" class="btn btn-outline">
-            Start Your Project
-          </a>
-        </div>
-
-        <div class="hero-highlights">
-          <div>
-            <strong>100%</strong>
-            <span>Responsive Design</span>
-          </div>
-
-          <div>
-            <strong>Modern</strong>
-            <span>Website Experience</span>
-          </div>
-
-          <div>
-            <strong>Direct</strong>
-            <span>Developer Support</span>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="hero-visual">
-
-        <div class="floating-label top-label">
-          ✦ DIGITAL EXPERIENCES
-        </div>
-
-        <div class="code-window">
-
-          <div class="window-header">
-            <div class="dots">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-
-            <span>chhirush.dev</span>
-          </div>
-
-          <div class="code-content">
-
-            <p class="code-purple">
-              &lt;website&gt;
-            </p>
-
-            <p>
-              <span class="code-blue">const</span>
-              brand =
-              <span class="code-gold">
-                "CHHIRUSH"
-              </span>;
-            </p>
-
-            <p>
-              <span class="code-blue">const</span>
-              service =
-              <span class="code-gold">
-                "Web Development"
-              </span>;
-            </p>
-
-            <p>
-              <span class="code-blue">const</span>
-              mission =
-              <span class="code-gold">
-                "Business Growth"
-              </span>;
-            </p>
-
-            <p class="code-purple">
-              &lt;/website&gt;
-            </p>
-
-          </div>
-
-          <div class="window-footer">
-            DESIGN • DEVELOP • DELIVER
-          </div>
-
-        </div>
-
-        <div class="floating-label bottom-label">
-          ◆ PREMIUM WEB DESIGN
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- ABOUT SECTION -->
-  <section class="section about-section" id="about">
-
-    <div class="container">
-
-      <div class="section-tag">
-        01 / ABOUT US
-      </div>
-
-      <h2 class="section-title">
-        Your Vision.
-        <span>Our Development.</span>
-      </h2>
-
-      <p class="section-description">
-        Chhirush Web Developer helps local businesses,
-        shops, entrepreneurs and startups establish
-        their online presence with modern websites.
-
-        We focus on clean design, responsive layouts,
-        useful features and easy customer communication.
-      </p>
-
-      <div class="about-features">
-
-        <div>✓ Modern Website Design</div>
-        <div>✓ Mobile Friendly Layouts</div>
-        <div>✓ Business Website Development</div>
-        <div>✓ WhatsApp Integration</div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- SERVICES -->
-  <section class="section services-section" id="services">
-
-    <div class="container">
-
-      <div class="section-tag">
-        02 / OUR SERVICES
-      </div>
-
-      <h2 class="section-title">
-        Digital Solutions
-        <span>For Your Business.</span>
-      </h2>
-
-      <p class="section-description">
-        From simple business websites to custom
-        digital experiences, we help bring your
-        business online.
-      </p>
-
-      <div class="services-grid">
-
-        <div class="service-card">
-          <div class="service-icon">⌘</div>
-          <h3>Business Websites</h3>
-          <p>
-            Professional websites for shops,
-            salons, restaurants, offices and
-            small businesses.
-          </p>
-          <span>01 ↗</span>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">◇</div>
-          <h3>Portfolio Websites</h3>
-          <p>
-            Personal portfolios for students,
-            freelancers and professionals
-            to showcase their work.
-          </p>
-          <span>02 ↗</span>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">↗</div>
-          <h3>Landing Pages</h3>
-          <p>
-            Beautiful promotional pages
-            for products, businesses
-            and marketing campaigns.
-          </p>
-          <span>03 ↗</span>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">▦</div>
-          <h3>Booking Websites</h3>
-          <p>
-            Appointment and enquiry
-            systems for service-based
-            businesses.
-          </p>
-          <span>04 ↗</span>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">✦</div>
-          <h3>Website Redesign</h3>
-          <p>
-            Refresh an existing website
-            with a modern design and
-            better mobile experience.
-          </p>
-          <span>05 ↗</span>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">⚙</div>
-          <h3>Website Maintenance</h3>
-          <p>
-            Content updates, small
-            improvements and ongoing
-            website support.
-          </p>
-          <span>06 ↗</span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PROJECTS -->
-  <section class="section projects-section" id="projects">
-
-    <div class="container">
-
-      <div class="section-tag">
-        03 / OUR WORK
-      </div>
-
-      <h2 class="section-title">
-        Featured
-        <span>Projects.</span>
-      </h2>
-
-      <p class="section-description">
-        Explore our web development work.
-      </p>
-
-      <div class="project-card">
-
-        <div class="project-preview">
-
-          <div class="preview-browser">
-
-            <div class="preview-header">
-              <span>● ● ●</span>
-              <small>RIDHAM EMITRA</small>
-            </div>
-
-            <div class="preview-content">
-
-              <span class="preview-tag">
-                DIGITAL SERVICES
-              </span>
-
-              <h3>
-                RIDHAM
-                <span>eMITRA</span>
-              </h3>
-
-              <p>
-                Online Services &
-                Appointment Booking
-              </p>
-
-              <div class="preview-button">
-                Explore Services ↗
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="project-details">
-
-          <span class="project-category">
-            FEATURED WEBSITE
-          </span>
-
-          <h3>Ridham eMitra</h3>
-
-          <p>
-            A digital service centre website
-            featuring service details, pricing
-            information and an appointment
-            booking interface.
-          </p>
-
-          <div class="project-tags">
-            <span>Business Website</span>
-            <span>Responsive Design</span>
-            <span>Booking Interface</span>
-          </div>
-
-          <a
-            href="https://ridham-emitra-vgw8.onrender.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-link">
-            Visit Live Website ↗
-          </a>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- PRICING -->
-  <section class="section pricing-section" id="pricing">
-
-    <div class="container">
-
-      <div class="section-tag">
-        04 / OUR PRICING
-      </div>
-
-      <h2 class="section-title">
-        Professional Websites.
-        <span>Affordable Pricing.</span>
-      </h2>
-
-      <div class="pricing-grid">
-
-        <div class="pricing-card">
-
-          <h3>Starter Website</h3>
-
-          <div class="price">
-            ₹2,999
-            <small>onwards</small>
-          </div>
-
-          <p>
-            Perfect for individuals
-            and small local businesses.
-          </p>
-
-          <ul>
-            <li>✓ Responsive Website</li>
-            <li>✓ Business Information</li>
-            <li>✓ WhatsApp Contact Button</li>
-            <li>✓ Contact Section</li>
-            <li>✓ Modern Design</li>
-          </ul>
-
-          <a href="#contact" class="btn btn-outline">
-            Get Started
-          </a>
-
-        </div>
-
-
-        <div class="pricing-card featured-price">
-
-          <div class="price-badge">
-            CUSTOM SOLUTION
-          </div>
-
-          <h3>Business Pro</h3>
-
-          <div class="price">
-            Custom
-            <small>quote</small>
-          </div>
-
-          <p>
-            For businesses that need
-            advanced website features.
-          </p>
-
-          <ul>
-            <li>✓ Custom Website Design</li>
-            <li>✓ Multiple Pages</li>
-            <li>✓ Service & Pricing Sections</li>
-            <li>✓ Booking / Enquiry Features</li>
-            <li>✓ Custom Integrations</li>
-          </ul>
-
-          <a href="#contact" class="btn btn-gold">
-            Request a Quote
-          </a>
-
-        </div>
-
-      </div>
-
-      <p class="pricing-note">
-        *Final pricing depends on requirements.
-        Domain, hosting and third-party service
-        charges may be additional.
-      </p>
-
-    </div>
-
-  </section>
-
-
-  <!-- CONTACT -->
-  <section class="section contact-section" id="contact">
-
-    <div class="container contact-grid">
-
-      <div class="contact-info">
-
-        <div class="section-tag">
-          05 / CONTACT US
-        </div>
-
-        <h2 class="section-title">
-          Let's Build
-          <span>Something Great.</span>
-        </h2>
-
-        <p class="section-description">
-          Have a website idea?
-          Tell us about your business
-          and we'll discuss the best
-          solution for your needs.
-        </p>
-
-        <div class="contact-detail">
-          <span>LOCATION</span>
-          <strong>Pune, Maharashtra, India</strong>
-        </div>
-
-        <div class="contact-detail">
-          <span>BUSINESS</span>
-          <strong>Chhirush Web Developer</strong>
-        </div>
-
-      </div>
-
-
-      <form id="contactForm" class="contact-form">
-
-        <h3>Get a Free Quote</h3>
-
-        <p>
-          Fill in your details and
-          send your enquiry on WhatsApp.
-        </p>
-
-        <label for="clientName">
-          Your Name
-        </label>
-
-        <input
-          type="text"
-          id="clientName"
-          placeholder="Enter your name"
-          maxlength="80"
-          required>
-
-        <label for="businessName">
-          Business Name
-        </label>
-
-        <input
-          type="text"
-          id="businessName"
-          placeholder="Enter your business name"
-          maxlength="100"
-          required>
-
-        <label for="websiteType">
-          Website Type
-        </label>
-
-        <select id="websiteType">
-          <option>Business Website</option>
-          <option>Portfolio Website</option>
-          <option>Landing Page</option>
-          <option>Booking Website</option>
-          <option>Website Redesign</option>
-          <option>Other</option>
-        </select>
-
-        <label for="projectDetails">
-          Project Requirements
-        </label>
-
-        <textarea
-          id="projectDetails"
-          rows="4"
-          maxlength="1500"
-          placeholder="Tell us about your website..."
-          required></textarea>
-
-        <button type="submit" class="btn btn-gold submit-btn">
-          Send Enquiry on WhatsApp ↗
-        </button>
-
-        <small>
-          WhatsApp will open with your message.
-          You can review it before sending.
-        </small>
-
-      </form>
-
-    </div>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer class="footer">
-
-    <div class="container footer-content">
-
-      <div>
-        <div class="footer-brand">
-          CHHIRUSH<span>.</span>
-        </div>
-
-        <p>
-          Professional Website Development
-        </p>
-      </div>
-
-      <div class="footer-right">
-        <p>
-          © <span id="currentYear"></span>
-          Chhirush Web Developer.
-        </p>
-
-        <p>
-          All Rights Reserved.
-        </p>
-      </div>
-
-    </div>
-
-  </footer>
-
-
-  <script src="script.js"></script>
 
 </body>
+
 </html>
